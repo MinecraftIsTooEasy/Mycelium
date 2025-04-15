@@ -19,11 +19,11 @@ repositories {
 }
 
 loom {
-    accessWidenerPath = file("src/main/resources/hellofml.accesswidener")
+    accessWidenerPath = file("src/main/resources/mycelium.accesswidener")
     mergedMinecraftJar()
     setFML(new File("libs\\FishModLoader-v3.4.1.jar"))
     mods {
-        "HelloFML" {
+        "Mycelium" {
             sourceSet sourceSets.main
         }
     }

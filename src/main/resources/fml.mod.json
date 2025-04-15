@@ -1,19 +1,16 @@
 {
 	"schemaVersion": 1,
-	"id": "hellofml",
+	"id": "mycelium",
 	"version": "${version}",
 	"depends": {
 		"fishmodloader": ">=3.2.1"
 	},
 	"environment": "*",
-	"name": "HelloFML",
+	"name": "Mycelium",
 	"description": "",
-	"authors": ["Debris","FlyBird"],
-	"entrypoints": {
-		"main": ["com.github.Debris.HelloFML.HelloFML"]
-	},
+	"authors": ["Tesseract"],
 	"mixins": [
-		"hellofml.mixins.json"
+		"mycelium.mixins.json"
 	],
-	"accessWidener": "hellofml.accesswidener"
+	"accessWidener": "mycelium.accesswidener"
 }
